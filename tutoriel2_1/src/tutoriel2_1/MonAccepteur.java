@@ -13,4 +13,11 @@ public class MonAccepteur implements Accepteur {
 		return valeur >= 10 && valeur <= 99;
 	}
 
+	private boolean test = true;
+	
+	public void test() {
+		while(this.test == true) {
+			System.out.println("test");
+		}
+	}
 }
